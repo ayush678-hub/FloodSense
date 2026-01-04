@@ -1,4 +1,4 @@
-# 🌧️ Delhi Flood Watch - Smart Urban Flood Management System
+# 🌧️ FloodSense - Smart Urban Flood Management System
 
 A predictive, time-aware, and action-oriented urban flood management system that enables city authorities to anticipate water-logging, assess ward-level risk with confidence, and take preventive action before disruption occurs.
 
@@ -32,7 +32,7 @@ This system moves beyond flood visualization to become a decision-support and op
 ## 📁 Project Structure
 
 ```
-flood-frontend/
+floodsense/
 ├── src/
 │   ├── components/
 │   │   ├── TopBar.jsx          # Top navigation bar with time and weather

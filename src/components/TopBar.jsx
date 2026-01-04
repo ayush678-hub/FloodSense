@@ -47,7 +47,7 @@ export default function TopBar() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <h1 className="text-2xl font-bold">🌧️ Delhi Flood Watch</h1>
+            <h1 className="text-2xl font-bold">🌧️ FloodSense</h1>
             <span className="text-sm opacity-90">Smart Urban Flood Management System</span>
           </div>
           

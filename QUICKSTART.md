@@ -14,7 +14,7 @@
 
 3. **Open your browser:**
    - Navigate to `http://localhost:3000`
-   - You should see the Delhi Flood Watch dashboard
+   - You should see the FloodSense dashboard
 
 ## Backend Setup (Optional - 5 minutes)
 

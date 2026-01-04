@@ -1,5 +1,5 @@
 """
-FastAPI Backend for Delhi Flood Management System
+FastAPI Backend for FloodSense
 Provides risk prediction endpoints and data processing
 """
 
@@ -12,7 +12,7 @@ from datetime import datetime
 from risk_engine import calculate_risk_score, generate_ward_risks, calculate_preparedness
 
 app = FastAPI(
-    title="Delhi Flood Watch API",
+    title="FloodSense API",
     description="Smart Urban Flood Management System - Backend API",
     version="1.0.0"
 )
@@ -92,7 +92,7 @@ def load_ward_data():
 @app.get("/")
 async def root():
     return {
-        "message": "Delhi Flood Watch API",
+        "message": "FloodSense API",
         "version": "1.0.0",
         "status": "operational"
     }
